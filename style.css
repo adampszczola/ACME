@@ -1,0 +1,113 @@
+body, h1, h2, h3, h4, h5, ul, li{
+    margin:0;
+    padding:0;
+    font-family: Arial, sans-serif;
+    
+}
+
+header{
+    background-color: #35434C;
+    color:#ffffff;
+    min-height: 90px;
+    border-bottom: 3px solid #F83B1D;
+    box-shadow: border-box;
+    
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+}
+header ul{
+    color: #ffffff;
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+header nav{
+    width:25%;
+}
+.red-text {
+	color:#f83b1d;
+}
+.banner{
+    background-image: url(img/background.jpg);
+    min-height: 350px;
+    background-size: cover;
+    background-position: 0 -300px;
+}
+.banner .wrapper{
+    text-align: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    color: #ffffff;
+}
+.banner .wrapper h2{
+    font-size:40px;
+}
+.newsletter {
+    background-color: #35434C;
+    color:#ffffff;
+    min-height: 90px;
+}
+.newsletter .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+	
+}
+.newsletter input[type="email"]{
+    height:25px;
+    border:1px solid #aaaaaa;
+    box-sizing: border-box;
+    font-size:12px;
+    width:220px;
+    
+}
+.newsletter button {
+    height: 25px;
+    background-color: #f83b1d;
+    border:none;
+    color: #ffffff;
+    box-sizing: border-box;
+    padding:5px 15px;
+    font-size:12px;
+	
+}
+main {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+}
+main img{
+    width:100px;
+    margin-bottom: 20px;
+    
+}
+footer{
+    background-color: #f83b1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    color: #ffffff;
+}

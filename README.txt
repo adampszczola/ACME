@@ -1,1 +1,1 @@
-Projekt testowy
+Projekt tekstowy
